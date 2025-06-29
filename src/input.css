@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: "Poppins", sans-serif;
+}
+
+h1 > span {
+  color: var(--color-amarelo-100);
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1440px] my-0 mx-auto px-[60px];
+  }
+
+  .btn {
+    @apply bg-[linear-gradient(#FFBF00,#F2A50C)] text-amarelo-800 py-4 px-8 justify-center items-center font-semibold text-[18px] leading-[24px] rounded-[5px] shadow-[0px_1px_2px_0px_rgba(0,0,0,0.10)] cursor-pointer uppercase;
+  }
+
+  .btn:hover {
+    @apply bg-[linear-gradient(#FFB60D,#E59317)];
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* font-styles */
+
+  .font-1-xxl {
+    font: 600 64px/72px "Poppins", sans-serif;
+  }
+  .font-1-xl {
+    font: 600 32px/40px "Poppins", sans-serif;
+  }
+  .font-1-l {
+    font: 400 24px/36px "Poppins", sans-serif;
+  }
+  .font-1-m {
+    font: 400 18px/24px "Poppins", sans-serif;
+  }
+  .font-1-m-b {
+    font: 600 18px/24px "Poppins", sans-serif;
+  }
+  .font-1-s {
+    font: 400 16px/24px "Poppins", sans-serif;
+  }
+  .font-1-xs {
+    font: 600 12px/16px "Poppins", sans-serif;
+  }
+}
+
+@theme {
+  --color-amarelo-100: #ffbb00;
+  --color-amarelo-200: #e4a30b;
+  --color-amarelo-400: #a66f00;
+  --color-amarelo-600: #664400;
+  --color-amarelo-800: #332200;
+  --color-cinza-50: #f7f7f7;
+  --color-cinza-100: #ededed;
+  --color-cinza-200: #dedede;
+  --color-cinza-300: #cccccc;
+  --color-cinza-400: #b2b2b2;
+  --color-cinza-500: #9c9c9c;
+  --color-cinza-600: #717171;
+  --color-cinza-700: #595959;
+  --color-cinza-800: #404040;
+  --color-cinza-900: #2e2e2e;
+  --color-cinza-950: #111111;
+}

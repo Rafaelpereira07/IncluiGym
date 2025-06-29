@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IncluiGym - Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+</head>
+
+<body class="select-none">
+  <!-- Header -->
+  <header class="bg-black">
+    <div class="container flex justify-between items-center py-10">
+      <a href="./"><img src="./assets/logo.svg" alt="IncluGym"></a>
+      <nav>
+        <ul class="text-white flex gap-8 items-center">
+          <li><a href="#mapa">mapa</a></li>
+          <li><a href="./comunidade.html">comunidade</a></li>
+          <li><a href="./academias.html">academias</a></li>
+          <li><a href="./login.html">log in</a></li>
+          <li><button class="btn"><a href="./cadastro.html">sign in</a></button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Introdução -->
+  <main class="bg-cinza-950 h-[32rem]">
+    <div class="container mx-auto py-4">
+      <!-- Título e botões -->
+      <div class="flex justify-between items-end">
+        <h1 class="text-white font-1-xxl w-[27rem] pt-8">Inúmeras Modalidades<span>.</span></h1>
+        <div class="flex gap-10 select-none">
+          <button id="prevBtn"><img src="./assets/utilities/arrowL.svg" alt="Imagem Anterior"></button>
+          <button id="nextBtn"><img src="./assets/utilities/arrowR.svg" alt="Próxima Imagem"></button>
+        </div>
+      </div>
+      <!-- Carrossel -->
+      <section id="slideWrapper"
+        class="py-8 overflow-x-auto whitespace-nowrap scroll-smooth scrollbar-hide select-none">
+        <div id="slide" class="inline-flex gap-12">
+          <!-- Musculação -->
+          <div class="w-[200px] shrink-0 flex flex-col">
+            <img src="./assets/carrossel/musculacao.png" alt="Musculação"
+              class="rounded-t-[10px] w-full h-[125px] object-cover" draggable="false">
+            <div class="flex items-center bg-white h-[75px] rounded-b-[10px]">
+              <p class="font-1-m-b ml-3">Musculação</p>
+            </div>
+          </div>
+
+          <!-- Pilates -->
+          <div class="w-[200px] shrink-0 flex flex-col">
+            <img src="./assets/carrossel/pilates.png" alt="Pilates"
+              class="rounded-t-[10px] w-full h-[125px] object-cover" draggable="false">
+            <div class="flex items-center bg-white h-[75px] rounded-b-[10px]">
+              <p class="font-1-m-b ml-3">Pilates</p>
+            </div>
+          </div>
+
+          <!-- Natação -->
+          <div class="w-[200px] shrink-0 flex flex-col">
+            <img src="./assets/carrossel/natacao.png" alt="Natação"
+              class="rounded-t-[10px] w-full h-[125px] object-cover" draggable="false">
+            <div class="flex items-center bg-white h-[75px] rounded-b-[10px]">
+              <p class="font-1-m-b ml-3">Natação</p>
+            </div>
+          </div>
+
+          <!-- Cross Training -->
+          <div class="w-[200px] shrink-0 flex flex-col">
+            <img src="./assets/carrossel/crossTraining.png" alt="Cross Training"
+              class="rounded-t-[10px] w-full h-[125px] object-cover" draggable="false">
+            <div class="flex items-center bg-white h-[75px] rounded-b-[10px]">
+              <p class="font-1-m-b ml-3">Cross Training</p>
+            </div>
+          </div>
+
+          <!-- Massagem -->
+          <div class="w-[200px] shrink-0 flex flex-col">
+            <img src="./assets/carrossel/massagem.png" alt="Massagem"
+              class="rounded-t-[10px] w-full h-[125px] object-cover" draggable="false">
+            <div class="flex items-center bg-white h-[75px] rounded-b-[10px]">
+              <p class="font-1-m-b ml-3">Massagem</p>
+            </div>
+          </div>
+
+          <!-- Yoga -->
+          <div class="w-[200px] shrink-0 flex flex-col">
+            <img src="./assets/carrossel/yoga.png" alt="Yoga" class="rounded-t-[10px] w-full h-[125px] object-cover"
+              draggable="false">
+            <div class="flex items-center bg-white h-[75px] rounded-b-[10px]">
+              <p class="font-1-m-b ml-3">Yoga</p>
+            </div>
+          </div>
+
+          <!-- Vôlei -->
+          <div class="w-[200px] shrink-0 flex flex-col">
+            <img src="./assets/carrossel/volei.png" alt="Vôlei" class="rounded-t-[10px] w-full h-[125px] object-cover"
+              draggable="false">
+            <div class="flex items-center bg-white h-[75px] rounded-b-[10px]">
+              <p class="font-1-m-b ml-3">Vôlei</p>
+            </div>
+          </div>
+
+          <!-- Beach Tennis -->
+          <div class="w-[200px] shrink-0 flex flex-col">
+            <img src="./assets/carrossel/beachTennis.png" alt="Beach Tennis"
+              class="rounded-t-[10px] w-full h-[125px] object-cover" draggable="false">
+            <div class="flex items-center bg-white h-[75px] rounded-b-[10px]">
+              <p class="font-1-m-b ml-3">Beach Tennis</p>
+            </div>
+          </div>
+          <div class="w-[400px] text-cinza-950">a</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Mapa -->
+  <section id="mapa" class="container mx-auto flex flex-col items-center justify-between gap-10 py-[120px] xl:flex-row">
+    <h1 class="font-1-xxl">Mais saúde, mais perto, mais você<span>.</span></h1>
+    <img src="./assets/utilities/map.png" alt="Mapa" width="900px" class="object-cover">
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="bg-cinza-950 py-8">
+    <div class="container">
+      <h1 class="font-1-xxl text-white pb-8">Depoimentos<span>.</span></h1>
+
+      <div>
+        <div class="bg-white flex gap-4 p-2 rounded-[5px] max-w-[860px]">
+          <img src="./assets/perfilPhoto/perfil1.png" width="156px">
+          <div class="flex flex-col gap-3">
+            <h3 class="font-1-l">@amanda, 23 anos</h3>
+            <p class="font-1-m text-amarelo-800">“É ótimo ter um lugar que reúne tantas academias acessíveis num só
+              lugar.
+              Me senti respeitado e incluído
+              desde a busca. Parabéns pela proposta!”</p>
+          </div>
+        </div>
+
+        <div class="bg-white flex gap-4 p-2 rounded-[5px] max-w-[860px] justify-self-end my-[48px]">
+          <img src="./assets/perfilPhoto/perfil2.png" width="156px">
+          <div class="flex flex-col gap-3">
+            <h3 class="font-1-l">@amanda, 23 anos</h3>
+            <p class="font-1-m text-amarelo-800">“É ótimo ter um lugar que reúne tantas academias acessíveis num só
+              lugar.
+              Me senti respeitado e incluído
+              desde a busca. Parabéns pela proposta!”</p>
+          </div>
+        </div>
+
+        <div class="bg-white flex gap-4 p-2 rounded-[5px] max-w-[860px]">
+          <img src="./assets/perfilPhoto/perfil3.png" width="156px">
+          <div class="flex flex-col gap-3">
+            <h3 class="font-1-l">@amanda, 23 anos</h3>
+            <p class="font-1-m text-amarelo-800">“É ótimo ter um lugar que reúne tantas academias acessíveis num só
+              lugar.
+              Me senti respeitado e incluído
+              desde a busca. Parabéns pela proposta!”</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parceiros -->
+  <section aria-label="Nossos Parceiros" class="container py-[60px] max-md:pb-[60px] max-md:px-5">
+    <h1 class="font-1-xxl mb-[60px] max-md:mb-[20px]">nossos parceiros<span>.</span></h1>
+    <ul class="mx-auto grid max-w-[1400px] grid-cols-4 px-5 max-md:grid-cols-2">
+      <li class="flex p-8 max-md:p-[20px] max-md:border-none">
+        <img class="m-auto" src="./assets/parceiros/caravan.svg" alt="Caravan" width="140" height="38">
+      </li>
+      <li class="flex border-l-2 border-cinza-100 p-8 max-md:p-[20px]">
+        <img class="m-auto" src="./assets/parceiros/ranek.svg" alt="Ranek" width="149" height="36">
+      </li>
+      <li class="flex border-l-2 border-cinza-100 p-8 max-md:p-[20px] max-md:border-t-2 max-md:border-l-0">
+        <img class="m-auto" src="./assets/parceiros/handel.svg" alt="Handel" width="140" height="50">
+      </li>
+      <li
+        class="flex border-l-2 border-cinza-100 p-8 max-md:p-[20px] max-md:border-t-2 max-md:border-cinza-100 max-md:border-l-2">
+        <img class="m-auto" src="./assets/parceiros/dogs.svg" alt="Dogs" width="152" height="39">
+      </li>
+
+      <li class="flex border-t-2 border-cinza-100 p-8 max-md:p-[20px] max-md:border-t-2 max-md:border-cinza-100">
+        <img class="m-auto" src="./assets/parceiros/lescone.svg" alt="LeScone" width="208" height="41">
+      </li>
+      <li
+        class="flex border-t-2 border-l-2 border-cinza-100 p-8 max-md:p-[20px] max-md:border-t-2 max-md:border-l-2 max-md:border-cinza-100">
+        <img class="m-auto" src="./assets/parceiros/flexblog.svg" alt="FlexBlog" width="165" height="38">
+      </li>
+      <li class="flex border-t-2 border-l-2 border-cinza-100 p-8 max-md:p-[20px] max-md:border-t-2 max-md:border-l-0">
+        <img class="m-auto" src="./assets/parceiros/wildbeast.svg" alt="Wildbeast" width="196" height="34">
+      </li>
+      <li
+        class="flex border-t-2 border-l-2 border-cinza-100 p-8 max-md:p-[20px] max-md:border-t-2 max-md:border-l-2 max-md:border-cinza-100">
+        <img class="m-auto" src="./assets/parceiros/surfbot.svg" alt="Surfbot" width="200" height="49">
+      </li>
+    </ul>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-black">
+    <div class="container grid grid-cols-[3fr_5fr_4fr] gap-10 py-[60px] max-lg:grid-cols-2 max-[770px]:grid-cols-1">
+      <img src="./assets/logo.svg" alt="IncluiGym" class="max-lg:hidden">
+
+      <div class="justify-self-center">
+        <h3 class="font-1-xl text-white mb-[32px] uppercase">contato</h3>
+        <ul class="text-cinza-400 font-1-m *:mb-4">
+          <li>
+            <a href="+555398761234" class="hover:text-white">+55 53 9876-1234</a>
+          </li>
+          <li
+            class="mb-[16px] after:content-[''] after:block after:max-w-[360px] after:h-[2px] after:bg-cinza-950 after:mt-[16px]">
+            <a href="mailto:suporteincluigym@gmail.com" class="hover:text-white">suporteincluigym@gmail.com</a>
+          </li>
+          <li>Rua Logo Ali, 481 - Pelotas</li>
+          <li
+            class="after:content-[''] after:block after:max-w-[360px] after:h-[2px] after:bg-cinza-950 after:mt-[16px]">
+            Rio Grande do Sul - RS</li>
+        </ul>
+        <div class="flex gap-[32px]">
+          <a href="./"><img src="./assets/redes/instagram.svg" alt="Instagram" width="32" height="32"></a>
+          <a href="./"><img src="./assets/redes/facebook.svg" alt="Facebook" width="32" height="32"></a>
+          <a href="./"><img src="./assets/redes/youtube.svg" alt="Youtube" width="32" height="32"></a>
+        </div>
+      </div>
+
+      <div class="justify-self-center">
+        <h2 class="font-1-xl text-white mb-[32px] uppercase">informações</h2>
+        <ul class="text-cinza-400 font-1-m *:mb-4">
+          <li><a href="./cadastro.html" class="hover:text-white">Sign In</a></li>
+          <li><a href="#mapa" class="hover:text-white">Mapa</a></li>
+          <li><a href="./academias.html" class="hover:text-white">Academias</a></li>
+          <li><a href="./comunidade.html" class="hover:text-white">Comunidade</a></li>
+        </ul>
+      </div>
+      <p class="font-1-m grid-cols-subgrid col-span-full mt-[40px] text-cinza-400 max-md:mt-[20px]">IncluiGym ©
+        Alguns direitos reservados</p>
+    </div>
+  </footer>
+
+  <script src="./slide.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+package-lock.json
+.vscode/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+report.xml
+.nyc_output/
+*.zip
+*.tar
+*.gz

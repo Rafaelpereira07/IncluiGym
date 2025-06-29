@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IncluiGym - Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="bg-black">
+    <div class="container flex justify-between items-center py-10">
+      <a href="./"><img src="./assets/logo.svg" alt="IncluGym"></a>
+      <nav>
+        <ul class="text-white flex gap-8 items-center">
+          <li><a href="./comunidade.html">comunidade</a></li>
+          <li><a href="./academias.html">academias</a></li>
+          <li><a href="./login.html">log in</a></li>
+          <li><button class="btn"><a href="./cadastro.html">sign in</a></button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- titulo -->
+  <main class="bg-cinza-950">
+    <div class="container py-[60px]">
+      <h1 class="text-white font-1-xxl">Olá, que bom que voltou<span>.</span></h1>
+    </div>
+  </main>
+
+  <!-- form -->
+  <section class="bg-[linear-gradient(var(--color-cinza-950)_200px,#fff_0)] mb-[120px]">
+    <form
+      class="container bg-white grid grid-cols-2 gap-5 px-12 py-8 shadow-[0_1px_2px_rgba(0,0,0,0.2)] max-w-[700px] rounded-[5px]">
+      <h2
+        class="font-1-m-b uppercase flex items-center text-cinza-800 relative before:content-[''] before:inline-block before:w-1 before:h-2 before:bg-amarelo-100 before:absolute before:left-[-12px] my-5 col-span-full">
+        dados pessoais</h2>
+
+      <!-- Email -->
+      <div class="col-span-full">
+        <label for="email" class="capitalize font-1-s mb-1">email</label>
+        <input type="email" name="email" id="email"
+          class="bg-cinza-50 font-1s border border-cinza-100 rounded-[5px] p-3 w-full box-border focus:outline-hidden focus:bg-white focus:border-amarelo-100 focus:shadow-[0_0_0_2px_#fea]">
+      </div>
+
+      <!-- Senha -->
+      <div class="col-span-full">
+        <label for="senha" class="capitalize font-1-s mb-1">senha</label>
+        <input type="password" name="senha" id="senha"
+          class="bg-cinza-50 font-1s border border-cinza-100 rounded-[5px] p-3 w-full box-border focus:outline-hidden focus:bg-white focus:border-amarelo-100 focus:shadow-[0_0_0_2px_#fea]">
+      </div>
+
+      <button class="btn">entrar</button>
+    </form>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-black">
+    <div class="container grid grid-cols-[3fr_5fr_4fr] gap-10 py-[60px] max-lg:grid-cols-2 max-[770px]:grid-cols-1">
+      <img src="./assets/logo.svg" alt="IncluiGym" class="max-lg:hidden">
+
+      <div class="justify-self-center">
+        <h3 class="font-1-xl text-white mb-[32px] uppercase">contato</h3>
+        <ul class="text-cinza-400 font-1-m *:mb-4">
+          <li>
+            <a href="+555398761234" class="hover:text-white">+55 53 9876-1234</a>
+          </li>
+          <li
+            class="mb-[16px] after:content-[''] after:block after:max-w-[360px] after:h-[2px] after:bg-cinza-950 after:mt-[16px]">
+            <a href="mailto:suporteincluigym@gmail.com" class="hover:text-white">suporteincluigym@gmail.com</a>
+          </li>
+          <li>Rua Logo Ali, 481 - Pelotas</li>
+          <li
+            class="after:content-[''] after:block after:max-w-[360px] after:h-[2px] after:bg-cinza-950 after:mt-[16px]">
+            Rio Grande do Sul - RS</li>
+        </ul>
+        <div class="flex gap-[32px]">
+          <a href="./"><img src="./assets/redes/instagram.svg" alt="Instagram" width="32" height="32"></a>
+          <a href="./"><img src="./assets/redes/facebook.svg" alt="Facebook" width="32" height="32"></a>
+          <a href="./"><img src="./assets/redes/youtube.svg" alt="Youtube" width="32" height="32"></a>
+        </div>
+      </div>
+
+      <div class="justify-self-center">
+        <h2 class="font-1-xl text-white mb-[32px] uppercase">informações</h2>
+        <ul class="text-cinza-400 font-1-m *:mb-4">
+          <li><a href="./cadastro.html" class="hover:text-white">Sign In</a></li>
+          <li><a href="./academias.html" class="hover:text-white">Academias</a></li>
+          <li><a href="./comunidade.html" class="hover:text-white">Comunidade</a></li>
+        </ul>
+      </div>
+      <p class="font-1-m grid-cols-subgrid col-span-full mt-[40px] text-cinza-400 max-md:mt-[20px]">IncluiGym ©
+        Alguns direitos reservados</p>
+    </div>
+  </footer>
+</body>
+
+</html>
