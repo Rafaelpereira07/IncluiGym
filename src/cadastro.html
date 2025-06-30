@@ -15,6 +15,14 @@
 </head>
 
 <body>
+
+  <!-- Botão de acessibilidade -->
+  <button class="btn absolute left-4 top-4 -translate-y-20 focus:translate-y-0 focus:outline-none" aria-label="Ignore o Header" >
+    <a href="#main" >
+      Ir para o conteúdo principal
+    </a>
+  </button>
+
   <!-- Header -->
   <header class="bg-black">
     <div class="container flex justify-between items-center py-10">
@@ -31,7 +39,7 @@
   </header>
 
   <!-- titulo -->
-  <main class="bg-cinza-950">
+  <main id="main" class="bg-cinza-950">
     <div class="container py-[60px]">
       <h1 class="text-white font-1-xxl">Crie sua conta<span>.</span></h1>
     </div>
