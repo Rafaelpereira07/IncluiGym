@@ -1,0 +1,60 @@
+/* ---------- AVATARES ---------- */
+.avatars {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ---------- POSTS ---------- */
+.posts {
+  padding: 40px;
+  background-color: #1e1e1e;
+}
+
+.post {
+  background-color: #F5F5F5;
+  color: #000;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.post img {
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.post-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post-time {
+  font-size: 12px;
+  color: #888;
+  text-align: right;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IncluiGym - Fitmais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+<style>
+h1 { font-size: 28px; font-weight: 600; margin: 30px 50px 10px; }
+.img-gym { display: flex; justify-content: center;}
+.img-gym img { width: 600px; border-radius: 6px; }
+.support { background: #f5f5f5; margin: 20px 0; padding: 20px 0; border-radius: 8px; display: flex; align-items: flex-start; gap: 15px; }
+.support img { width: 40px; }
+.reviews {color: #fff; padding: 40px 0; }
+.reviews h2 { font-size: 22px; font-weight: 600; margin-bottom: 30px; }
+.review-item { background: #fff; color: #000; border-radius: 8px; padding: 15px 0; display: flex; align-items: flex-start; gap: 15px; margin-bottom: 20px; }
+.review-item img { width: 60px; height: 60px; border-radius: 50%; object-fit: cover; }
+.review-item strong { display: block; margin-bottom: 5px; }
+</style>
+
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-black">
+  <div class="container flex justify-between items-center py-10">
+    <a href="./"><img src="./assets/logo.svg" alt="IncluGym"></a>
+    <nav>
+      <ul class="text-white flex gap-8 items-center">
+        <li><a href="./comunidade.html">comunidade</a></li>
+        <li><a href="./academias.html">academias</a></li>
+        <li><a href="./login.html">log in</a></li>
+        <li><button class="btn"><a href="./cadastro.html">sign in</a></button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="bg-cinza-950">
+  <div class="container py-[60px]">
+    <h1 class="text-white font-1-xxl">Fitmais, Pelotas RS<span>.</span></h1>
+  </div>
+</main>
+
+<section class=" bg-[linear-gradient(var(--color-cinza-950)_180px,#fff_0)]">
+  <div class="container">
+    <div class="img-gym">
+      <img src="./assets/academia/banner.png" alt="Gym" class="shadow-[0_1px_2px_rgba(0,0,0,0.2)]">
+    </div>
+    
+    <div class="support">
+      <img src="./assets//utilities/view.png" alt="Visual Support">
+      <div>
+        <strong>Oferece suporte a deficientes visuais</strong>
+        <p>Recursos táteis, marcações em relevo e orientações sonoras que ajudam na identificação de pesos, botões e ajustes, permitindo que o treino seja seguro e autônomo.</p>
+      </div>
+    </div>
+    
+    <div class="support">
+      <img src="./assets/utilities/medical.png" alt="Physical Support">
+      <div>
+        <strong>Oferece suporte a deficientes físicos</strong>
+        <p>Aparelhos contam com ajustes de altura, suportes de estabilização, bancos móveis ou removíveis e espaço para cadeiras de rodas, garantindo acesso, conforto e liberdade de movimento durante os exercícios.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg-cinza-950">
+  <div class="reviews container">
+    <h2>Avaliações. <span>⭐4,8</span></h2>
+  
+    <div class="review-item">
+      <img src="./assets//perfilPhoto/perfil2.png" alt="Amanda">
+      <div>
+        <strong>@Amanda, 23 anos</strong>
+        <p>Gosto de como os instrutores realmente se preocupam em explicar. Gosto das possibilidades no meu horário e no meu ritmo.</p>
+      </div>
+    </div>
+  
+    <div class="review-item">
+      <img src="./assets//perfilPhoto/perfil3.png" alt="João">
+      <div>
+        <strong>@João, 19 anos</strong>
+        <p>Ambiente limpo, equipe super atenciosa e equipamentos de excelente nível. A inclusão faz diferença. A melhor da Fitmais é realmente o diferencial!</p>
+      </div>
+    </div>
+  
+    <div class="review-item">
+      <img src="./assets//perfilPhoto/perfil4.png" alt="Micaela">
+      <div>
+        <strong>@Micaela, 19 anos</strong>
+        <p>Adoro a maneira como nossas experiências se tornam bem acolhidas, ótimos preços e flexibilidade. Inclusivo e humanizado, nota 10 total.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-black">
+  <div class="container grid grid-cols-[3fr_5fr_4fr] gap-10 py-[60px] max-lg:grid-cols-2 max-[770px]:grid-cols-1">
+    <img src="./assets/logo.svg" alt="IncluiGym" class="max-lg:hidden">
+
+    <div class="justify-self-center">
+      <h3 class="font-1-xl text-white mb-[32px] uppercase">contato</h3>
+      <ul class="text-cinza-400 font-1-m *:mb-4">
+        <li>
+          <a href="+555398761234" class="hover:text-white">+55 53 9876-1234</a>
+        </li>
+        <li
+          class="mb-[16px] after:content-[''] after:block after:max-w-[360px] after:h-[2px] after:bg-cinza-950 after:mt-[16px]">
+          <a href="mailto:suporteincluigym@gmail.com" class="hover:text-white">suporteincluigym@gmail.com</a>
+        </li>
+        <li>Rua Logo Ali, 481 - Pelotas</li>
+        <li
+          class="after:content-[''] after:block after:max-w-[360px] after:h-[2px] after:bg-cinza-950 after:mt-[16px]">
+          Rio Grande do Sul - RS</li>
+      </ul>
+      <div class="flex gap-[32px]">
+        <a href="./"><img src="./assets/redes/instagram.svg" alt="Instagram" width="32" height="32"></a>
+        <a href="./"><img src="./assets/redes/facebook.svg" alt="Facebook" width="32" height="32"></a>
+        <a href="./"><img src="./assets/redes/youtube.svg" alt="Youtube" width="32" height="32"></a>
+      </div>
+    </div>
+
+    <div class="justify-self-center">
+      <h2 class="font-1-xl text-white mb-[32px] uppercase">informações</h2>
+      <ul class="text-cinza-400 font-1-m *:mb-4">
+        <li><a href="./" class="hover:text-white">Home</a></li>
+        <li><a href="./#mapa" class="hover:text-white">Mapa</a></li>
+        <li><a href="./cadastro.html" class="hover:text-white">Sign In</a></li>
+        <li><a href="./academias.html" class="hover:text-white">Academias</a></li>
+        <li><a href="./comunidade.html" class="hover:text-white">Comunidade</a></li>
+      </ul>
+    </div>
+    <p class="font-1-m grid-cols-subgrid col-span-full mt-[40px] text-cinza-400 max-md:mt-[20px]">IncluiGym ©
+      Alguns direitos reservados</p>
+  </div>
+</footer>
+
+</body>
+</html>

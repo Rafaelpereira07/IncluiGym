@@ -171,15 +171,6 @@
   .relative {
     position: relative;
   }
-  .col-\[span_1\] {
-    grid-column: span 1;
-  }
-  .col-\[span_2\] {
-    grid-column: span 2;
-  }
-  .col-span-\[1\] {
-    grid-column: span 1 / span 1;
-  }
   .col-span-full {
     grid-column: 1 / -1;
   }
@@ -258,9 +249,6 @@
   .h-\[125px\] {
     height: 125px;
   }
-  .h-\[600px\] {
-    height: 600px;
-  }
   .w-\[27rem\] {
     width: 27rem;
   }
@@ -314,6 +302,9 @@
   }
   .flex-col {
     flex-direction: column;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
   }
   .items-center {
     align-items: center;
@@ -395,8 +386,14 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[linear-gradient\(var\(--color-cinza-950\)_180px\,\#fff_0\)\] {
+    background-image: linear-gradient(var(--color-cinza-950) 180px,#fff 0);
+  }
   .bg-\[linear-gradient\(var\(--color-cinza-950\)_200px\,\#fff_0\)\] {
     background-image: linear-gradient(var(--color-cinza-950) 200px,#fff 0);
+  }
+  .bg-\[linear-gradient\(var\(--color-cinza-950\)_218px\,\#fff_0\)\] {
+    background-image: linear-gradient(var(--color-cinza-950) 218px,#fff 0);
   }
   .bg-\[linear-gradient\(var\(--color-cinza-950\)_250px\,\#fff_0\)\] {
     background-image: linear-gradient(var(--color-cinza-950) 250px,#fff 0);
